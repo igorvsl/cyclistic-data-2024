@@ -1,0 +1,17 @@
+# Temporary files and folders from Jupyter
+.ipynb_checkpoints/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# System hidden files (macOS and Windows)
+.DS_Store
+Thumbs.db
+
+# Environment variables (security)
+.env
+
+# Large or raw data files
+data/*.csv
+!data/sample.csv  # keep a small sample if desired
